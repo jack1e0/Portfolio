@@ -1,0 +1,8 @@
+
+.headerNav {
+  @apply text-gray transition-all duration-300 ease-out
+}
+
+.headerNav:hover {
+  @apply text-orange transition-all duration-200 ease-out
+}
