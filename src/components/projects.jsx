@@ -4,23 +4,23 @@ import { motion } from "framer-motion";
 const projectsList = [
   {
     title: "Tiny Painting",
-    imgurl: "/tinypainting.png",
+    imgurl: "tinypainting.png",
     date: "2022-2023",
     desc: "Started a digital shop to sell my paintings, amassing over 20k followers on Instagram. Also created a WordPress site for it.",
 
-    skills: [{ title: "WordPress", url: "/wp.png" }],
+    skills: [{ title: "WordPress", url: "wp.png" }],
     linkUrl: "https://tiny--painting.com/",
   },
   {
     title: "cATWORKs",
-    imgurl: "/catworks.png",
+    imgurl: "catworks.png",
     date: "May-Aug 2023",
     desc: "Developed an educational study application in a team of two (as part of the NUS Orbital Programme), featuring an immersive virtual pet experience. Designed and created game sprites in-house.",
 
     skills: [
-      { title: "Unity", url: "/unity.png" },
-      { title: "Blender", url: "/blender.png" },
-      { title: "Firebase", url: "/firebase.png" },
+      { title: "Unity", url: "unity.png" },
+      { title: "Blender", url: "blender.png" },
+      { title: "Firebase", url: "firebase.png" },
     ],
     codeUrl: "https://github.com/jack1e0/cATWORKs",
     linkUrl:
@@ -28,22 +28,22 @@ const projectsList = [
   },
   {
     title: "Game #1 - One Night",
-    imgurl: "/game1.png",
+    imgurl: "game1.png",
     date: "2022",
     desc: "Created a short story using Unity 2D, and also designed game sprites in GIMP. Experimented with parallax camera movement, and dialogue system.",
-    skills: [{ title: "Unity", url: "/unity.png" }],
+    skills: [{ title: "Unity", url: "unity.png" }],
     codeUrl: "https://github.com/jack1e0/2D-Game",
     linkUrl: "https://jack1e0.itch.io/",
   },
 
   {
     title: "Game #2 - City",
-    imgurl: "/game2.png",
+    imgurl: "game2.png",
     date: "2022",
     desc: "Experimented with Unity 3D, and modelled environment in Blender.",
     skills: [
-      { title: "Unity", url: "/unity.png" },
-      { title: "Blender", url: "/blender.png" },
+      { title: "Unity", url: "unity.png" },
+      { title: "Blender", url: "blender.png" },
       ,
     ],
     codeUrl: "https://github.com/jack1e0/3D-Game",

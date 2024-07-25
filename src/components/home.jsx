@@ -36,10 +36,11 @@ export default function Home() {
       <Header />
       <motion.div
         ref={ref}
-        className="w-full pt-40 px-10 bg-bottom h-[120vh]"
+        className="w-full pt-40 px-10 bg-bottom h-[110vh] sm:h-[120vh] md:h-[140vh]"
         style={{
-          backgroundImage: "url(/bg.png)",
+          backgroundImage: "url(bg.jpg)",
           backgroundSize: "cover",
+          backgroundPosition: "40% 100%"
         }}
       >
         <motion.div

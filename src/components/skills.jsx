@@ -1,34 +1,34 @@
 import Logo from "./logo";
 
 const languages = [
-    {title:'JavaScript', url:'/js.png'},
-    {title:'Python', url:'/python.png'},
-    {title:'Java', url:'/java.png'},
-    {title:'C#', url:'/csharp.png'},
-    {title:'Python', url:'/python.png'},
+    {title:'JavaScript', url:'js.png'},
+    {title:'Python', url:'python.png'},
+    {title:'Java', url:'java.png'},
+    {title:'C#', url:'csharp.png'},
+    {title:'Python', url:'python.png'},
 ]
 
 const frameworks = [
-    {title:'React', url:'/react.png'},
-    {title:'Express', url:'/express.png'},
-    {title:'Three.js', url:'/three.png'},
-    {title:'Node.js', url:'/node.png'},
-    {title:'HTML', url:'/html.png'},
-    {title:'CSS', url:'/css.png'},
-    {title:'Tailwind CSS', url:'/tailwind.png'},
-    {title:'Redux', url:'/redux.png'},
+    {title:'React', url:'react.png'},
+    {title:'Express', url:'express.png'},
+    {title:'Three.js', url:'three.png'},
+    {title:'Node.js', url:'node.png'},
+    {title:'HTML', url:'html.png'},
+    {title:'CSS', url:'css.png'},
+    {title:'Tailwind CSS', url:'tailwind.png'},
+    {title:'Redux', url:'redux.png'},
 ]
 
 const softwares = [
-    {title:'Unity', url:'/unity.png'},
-    {title:'AWS', url:'/aws.png'},
-    {title:'MongoDB', url:'/mongodb.png'},
-    {title:'DynamoDB', url:'/ddb.png'},
-    {title:'Firebase', url:'/firebase.png'},
-    {title:'WordPress', url:'/wp.png'},
-    {title:'Magento', url:'/magento.png'},
-    {title:'Blender', url:'/blender.png'},
-    {title:'DaVinci Resolve', url:'/davinci.png'},
+    {title:'Unity', url:'unity.png'},
+    {title:'AWS', url:'aws.png'},
+    {title:'MongoDB', url:'mongodb.png'},
+    {title:'DynamoDB', url:'ddb.png'},
+    {title:'Firebase', url:'firebase.png'},
+    {title:'WordPress', url:'wp.png'},
+    {title:'Magento', url:'magento.png'},
+    {title:'Blender', url:'blender.png'},
+    {title:'DaVinci Resolve', url:'davinci.png'},
 ]
 
 
