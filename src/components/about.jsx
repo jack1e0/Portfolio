@@ -26,20 +26,25 @@ export default function About() {
       <h1 className="w-72 bg-gradient-to-r from-pink to-yellow bg-clip-text inline-block text-transparent">
         About Me
       </h1>
-      <p className="text-justify flex-1">
-        I am a Computer Science undergraduate at the National University of
-        Singapore (NUS), with a minor in Mathematics. I have a passion for
-        design and technology, and enjoy creating software with special and
-        immersive user experience.
+      <p className="text-justify flex-1 text-[14px]">
+        Hi, I’m Jackie — a Computer Science student at the National University
+        of Singapore with a deep passion for building and creating. My journey
+        began with a background in art and design, which evolved into a love for
+        technology. Today, I combine both worlds by designing and developing
+        products that are not only functional but also meaningful and enjoyable
+        for others.
         <br />
         <br />
-        My background includes full-stack software and game development, and I am
-        excited to delve deeper into these fields, and also to explore new ones
-        like AI and cybersecurity.
+        This year, I embarked on NUS Overseas College (NOC) in Stockholm, which
+        is an incredibly valuable opportunity, allowing me to immerse in the
+        local start-up ecosystem, as well as hone my technical skills as a
+        software developer at Kisi, where I’m contributing to real-world
+        projects and learning from an innovative team.
         <br />
         <br />
-        In my free time, I enjoy backpacking and hiking, to explore the world
-        and other perspectives.
+        Outside of tech, I’m an avid backpacker and hiker. I love exploring new
+        places and perspectives — something that continues to shape both my
+        personal growth and creative approach to problem-solving.
       </p>
     </motion.main>
   );

@@ -5,10 +5,27 @@ import { motion } from "framer-motion";
 
 const workList = [
   {
+    title: "Data Engineering/ Software Development Intern",
+    company: { title: "Kisi", url: "kisi.png" },
+    date: "Jan 2025 - Present",
+    desc: ["TBC"],
+    skills: [
+      { title: "React", url: "react.png" },
+      { title: "Google Cloud Platform", url: "gcp.png" },
+      { title: "Apache Beam", url: "beam.png" },
+      { title: "Astro", url: "astro.png" },
+      { title: "Postman", url: "postman.webp" },
+    ],
+  },
+  {
     title: "Software Engineer Intern",
     company: { title: "Geomotion", url: "geomotion.png" },
-    date: "Jun 2024 - Present",
-    desc: [<li>Responsible for end-to-end development of company website</li>],
+    date: "Jun 2024 - Nov 2024",
+    desc: [
+      "Led end-to-end development of company website and its administrative panel using the MERN stack (MongoDB, Express.js, React, Node.js)",
+      "Created a Retrieval-Augmented Generation (RAG) chatbot, trained on company documentation and extensive domain material, to provide intelligent, real-time support for website visitors",
+      "Developed a fully featured HR portal with a robust role-based authentication system, enabling secure creation, submission, and approval of employee timesheets",
+    ],
     skills: [
       { title: "React", url: "react.png" },
       { title: "Express", url: "express.png" },
@@ -16,6 +33,7 @@ const workList = [
       { title: "Node.js", url: "node.png" },
       { title: "Redux", url: "redux.png" },
       { title: "Tailwind CSS", url: "tailwind.png" },
+
     ],
   },
   {
@@ -23,9 +41,9 @@ const workList = [
     company: { title: "MeetArts", url: "meetarts.png" },
     date: "Dec 2023 - May 2024",
     desc: [
-      <li>Sole developer of the MeetArts Virtual Gallery, integrating it into the web platform</li>,
-      <li>Engaged in cybersecurity initiatives and SEO improvement</li>,
-      <li>View more at <a href="https://github.com/jack1e0/MeetArts-Virtual-Gallery" target="_blank">my repository</a></li>
+      "Sole developer of the MeetArts Virtual Gallery, integrating it into the web platform in 2 months",
+      "Created media content for the gallery, including the guide and promotional video, using Canva and Da Vinci Resolve respectively",
+      "Engaged in cybersecurity initiatives and SEO improvement",
     ],
     skills: [
       { title: "Magento", url: "magento.png" },
@@ -41,9 +59,9 @@ const workList = [
     company: { title: "Floramis", url: "floramis.jpg" },
     date: "May 2023 - Aug 2023",
     desc: [
-      <li>Designed and implemented new features of mobile app</li>,
-      <li>Improved on existing functionalities</li>,
-      <li>Assisted in designing aspects of game logic</li>,
+      "Designed and implemented new features of mobile app",
+      "Improved on existing functionalities",
+      "Assisted in designing aspects of game logic",
     ],
     skills: [
       { title: "Unity", url: "unity.png" },
@@ -64,7 +82,7 @@ const fadeInVariants = {
     y: 0,
     transition: {
       type: "tween",
-      duration:0.5,
+      duration: 0.5,
       delay: 0.05 * i,
     },
   }),
@@ -79,7 +97,13 @@ const Card = ({ title, company, date, desc, skills }) => {
     >
       <div className="flex flex-row justify-between">
         <div className="flex flex-row gap-5">
-          <img src={company.url} alt="logo" className="h-10 md:h-20" />
+          <div className="max-h-10 max-w-10 md:max-h-20 md:max-w-20 h-full items-center flex justify-center">
+            <img
+              src={company.url}
+              alt="logo"
+              className="max-w-full max-h-full"
+            />
+          </div>
           <div className="flex flex-col md:pt-3">
             <p className="text-lg md:text-xl font-semibold">{title}</p>
             <div className="md:text-lg text-dark block md:flex flex-row gap-5">
@@ -98,7 +122,9 @@ const Card = ({ title, company, date, desc, skills }) => {
       {!open ? null : (
         <div className="ml-3 sm:ml-12 md:ml-24">
           <ul>
-            {desc.map((d) => d)}
+            {desc.map((d) => (
+              <li>{d}</li>
+            ))}
           </ul>
           <div className="flex flex-row gap-2 mt-5">
             {skills.map((skil, i) => (
