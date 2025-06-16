@@ -40,7 +40,7 @@ export default function Home() {
         style={{
           backgroundImage: "url(bg.jpg)",
           backgroundSize: "cover",
-          backgroundPosition: "40% 100%"
+          backgroundPosition: "40% 100%",
         }}
       >
         <motion.div

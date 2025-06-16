@@ -5,7 +5,7 @@ import Home from "./components/home";
 function App() {
   return (
     <Routes>
-      <Route exact path="/" element={<Home />} />
+      <Route exact path="" element={<Home />} />
     </Routes>
   );
 }

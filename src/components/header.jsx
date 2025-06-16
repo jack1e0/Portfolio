@@ -118,8 +118,9 @@ export default function Header() {
         </button>
       </div>
 
-      {sideBar ? 
-      <div className="h-full w-full bg-transBlack fixed top-0 left-0 z-30"/> : null }
+      {sideBar ? (
+        <div className="h-full w-full bg-transBlack fixed top-0 left-0 z-30" />
+      ) : null}
     </div>
   );
 }
